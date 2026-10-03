@@ -1,0 +1,32 @@
+# WordPress / 主题开发过程中产生的临时文件
+*.log
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器目录
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 依赖与构建产物
+node_modules/
+vendor/
+dist/
+build/
+*.zip
+
+# 本地环境配置（不要提交）
+.env
+.env.local
+*.local.php
+wp-config.php
+
+# 调试日志
+debug.log
+error_log
